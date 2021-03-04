@@ -13,11 +13,11 @@ setuptools.setup(
     url="https://github.com/gosuai/gosu-vcr-grpc",
     keywords=["grpc", "vcr", "gosu"],
     install_requires=[
-        "grpclib>=0.4.1",
-        "PyYAML>=5.4.1",
-        "pytest>6.2",
-        "vcrpy@git+https://github.com/gosuai/vcrpy.git@51e451783078964e1cbc5cc24864ac0c6a8333fd",
-        "google-gosu@git+https://github.com/gosuai/gosu-grpc.git@45cd671bd92dbae7aae0bf7b1ff91825c8c55574",
+        "grpclib",
+        "PyYAML",
+        "pytest",
+        "vcrpy",
+        "google-gosu",
     ],
     classifiers=[
         "Development Status :: Production",
